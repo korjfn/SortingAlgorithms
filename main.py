@@ -5,7 +5,7 @@ def selection_sort(myarray):
         for j in range(i + 1, n):
             if myarray[j] < myarray[min_index]:
                 min_index = j
-        myarray[i], myarray[min_index] = myarray[min_index], myarray[i]
+        myarray[i], myarray[min_index] = myarray[min_index], myarray[i] 
 
 def insertion_sort(myarray):
     n = len(myarray)
